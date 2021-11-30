@@ -25,7 +25,7 @@ function loadTable() {
   }
   
   loadTable();
-  //////
+ 
   function showUserCreateBox() {
     Swal.fire({
       title: 'Crear Nuevo Usuario',
@@ -117,7 +117,7 @@ function loadTable() {
     };
   }
 
-  //////
+
   function userDelete(id) {
     const xhttp = new XMLHttpRequest();
     xhttp.open("DELETE", "https://localhost:44319/api/Usuario/{id}");
